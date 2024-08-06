@@ -27,7 +27,6 @@ header h1 {
 
 .hero {
     background-image: url('background.jpg');
-    /* Replace with your background image */
     height: 300px;
     background-size: cover;
     display: flex;
@@ -54,6 +53,12 @@ header h1 {
     margin: 1em;
     width: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #efefef7f;
 }
 
 .booking-link {
