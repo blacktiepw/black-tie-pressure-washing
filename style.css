@@ -9,15 +9,15 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    /* background-color: #dedede; */
+    color: #000000;
     padding: 1em;
     display: flex;
     align-items: center;
 }
 
 header img {
-    height: 50px;
+    height: 100px;
     margin-right: 20px;
 }
 
@@ -26,12 +26,14 @@ header h1 {
 }
 
 .hero {
-    background-image: url('background.jpg');
+    background-image: url('background.jpg'); /* Replace with your background image */
     height: 300px;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the whole area */
+    background-position: bottom; /* Position the bottom of the image to be always visible */
     display: flex;
-    align-items: center;
+    align-items: flex-end; /* Align content to the bottom */
     justify-content: center;
+    position: relative; /* Relative positioning for additional content */
 }
 
 .content {
