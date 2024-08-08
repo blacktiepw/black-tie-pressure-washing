@@ -63,7 +63,7 @@ header h1 {
 }
 
 .hero {
-    background-image: url('background.jpg');
+    background-image: url('/assets/images/background.jpg');
     height: 500px;
     background-size: cover;
     background-position: bottom;

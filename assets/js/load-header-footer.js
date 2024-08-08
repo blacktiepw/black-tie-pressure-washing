@@ -10,6 +10,6 @@ function loadHTML(url, elementId) {
 
 // Load header and footer
 window.onload = function () {
-    loadHTML('header.html', 'header-placeholder');
-    loadHTML('footer.html', 'footer-placeholder');
+    loadHTML('partials/header.html', 'header-placeholder');
+    loadHTML('partials/footer.html', 'footer-placeholder');
 };
