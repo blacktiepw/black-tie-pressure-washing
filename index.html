@@ -42,28 +42,6 @@
         <a href="booking.html" class="booking-link">Get Your Instant Quote & Book Now</a>
     </div>
     <div id="footer-placeholder"></div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            let lastScrollTop = 0;
-            const header = document.querySelector('header');
-
-            if (header) {
-                window.addEventListener('scroll', function () {
-                    const currentScroll = window.scrollY || document.documentElement.scrollTop;
-
-                    if (currentScroll > lastScrollTop) {
-                        // Scroll down
-                        header.classList.add('hidden');
-                    } else {
-                        // Scroll up
-                        header.classList.remove('hidden');
-                    }
-                    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>
