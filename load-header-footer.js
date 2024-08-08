@@ -12,20 +12,4 @@ function loadHTML(url, elementId) {
 window.onload = function () {
     loadHTML('header.html', 'header-placeholder');
     loadHTML('footer.html', 'footer-placeholder');
-
-    let lastScrollTop = 0;
-    const header = document.querySelector('header');
-
-    window.addEventListener('scroll', function () {
-        const currentScroll = window.scrollY || document.documentElement.scrollTop;
-
-        if (currentScroll > lastScrollTop) {
-            // Scroll down
-            header.classList.add('hidden');
-        } else {
-            // Scroll up
-            header.classList.remove('hidden');
-        }
-        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
-    });
 };
