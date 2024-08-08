@@ -41,24 +41,24 @@ header h1 {
     header {
         padding: 0.5em;
     }
-    
+
     header img {
         height: 30px;
         margin-right: 10px;
         margin-top: 5px;
     }
-    
+
     header h1 {
         font-size: 1.2em;
     }
-    
+
     .hero {
-        height: 200px; /* Adjust hero height for smaller screens */
+        height: 200px;
     }
-    
+
     .content {
         padding: 1em;
-        margin-top: 20px; /* Reduce margin to fit smaller screens */
+        margin-top: 3em !important;
     }
 }
 
