@@ -44,7 +44,7 @@ header h1 {
 }
 
 header .book-now-button {
-    background-color: #007bff;
+    background-color: #ec971f;
     color: #fff;
     padding: 0.5em 1em;
     border-radius: 5px;
@@ -54,8 +54,10 @@ header .book-now-button {
     margin-left: 1em;
 }
 
-header .book-now-button:hover {
-    background-color: #ec971f;
+.book-now-button:hover {
+    transform: scale(1.1);
+    background-color: #037b8e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
@@ -109,9 +111,9 @@ header .book-now-button:hover {
 }
 
 .tos-message {
-    background-color: #e6f7ff;
+    background-color: rgba(3, 123, 142, 0.219);
     padding: 1em;
-    border: 1px solid #007bff;
+    border: 1px solid #037b8e;
     border-radius: 5px;
     margin: auto;
     width: 50%;
@@ -121,12 +123,12 @@ header .book-now-button:hover {
 }
 
 .tos-message a {
-    color: #007bff;
+    color: #037b8e;
     text-decoration: underline;
 }
 
 .tos-message a:hover {
-    color: #0056b3;
+    color: #ec971f;
 }
 
 .services {
@@ -172,7 +174,7 @@ header .book-now-button:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: #007bff;
+    background-color: #ec971f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -182,7 +184,9 @@ header .book-now-button:hover {
 }
 
 .booking-link:hover {
-    background-color: #ec971f;
+    transform: scale(1.1);
+    background-color: #037b8e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
